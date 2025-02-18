@@ -52,6 +52,9 @@ A API permite realizar as operações CRUD (Criar, Ler, Atualizar e Deletar) par
 - **GET /api/pessoas**  
   Lista todas as pessoas cadastradas.
 
+  - **GET /api/pessoas/maladireta/{pessoa_id}**  
+  Traz informações DTO de uma pessoa com endereço para mala direta.
+
 - **POST /api/pessoas/{pessoa_id}**  
   Cria uma nova pessoa no sistema.
 
